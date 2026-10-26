@@ -1,0 +1,6 @@
+# 키값 (커밋 금지)
+.env
+# .env에서 생성되는 파일
+amplitude-config.js
+# 로컬 미리보기 서버 설정
+.claude/

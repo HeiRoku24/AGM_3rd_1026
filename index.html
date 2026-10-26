@@ -313,5 +313,9 @@ document.querySelectorAll('[data-cta="sticky"],[data-cta="header"]').forEach(a=>
   if(isIOS||isAndroid){ a.addEventListener('click',e=>{ e.preventDefault(); location.href = STORE[isIOS?'ios':'android'] + qs; }); }
 });
 </script>
+<!-- Amplitude: SDK → 키(.env에서 생성) → 이벤트 추적 -->
+<script src="https://cdn.jsdelivr.net/npm/@amplitude/analytics-browser@2.11.1/lib/scripts/amplitude-min.js"></script>
+<script src="amplitude-config.js"></script>
+<script src="analytics.js?v=4"></script>
 </body>
 </html>
